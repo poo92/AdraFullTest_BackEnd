@@ -10,7 +10,8 @@ namespace AdraDevTest
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            // enable cors
+            config.EnableCors();
             // Web API routes
             config.MapHttpAttributeRoutes();
 

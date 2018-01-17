@@ -8,6 +8,8 @@ using Microsoft.Practices.Unity;
 using Unity;
 using Unity.AspNet.Mvc;
 
+
+
 namespace AdraDevTest
 {
     public static class Bootstrapper
@@ -18,7 +20,6 @@ namespace AdraDevTest
 
         //    DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         //}
-
         public static void Initialise()
         {
             var container = BuildUnityContainer();
@@ -36,11 +37,12 @@ namespace AdraDevTest
             // register all your components with the container here
             // it is NOT necessary to register your controllers
 
-            // e.g. container.RegisterType<ITestService, TestService>();            
+            // e.g. container.RegisterType<ITestService, TestService>(); 
             container.RegisterType<IAccountBalanceService, AccountBalanceService>();
             container.RegisterType<IAccountBalanceRepo, AccountBalanceRepo>();
             container.RegisterType<IUserService, UserService>();
             container.RegisterType<IUserRepo, UserRepo>();
+
             return container;
         }
     }
