@@ -39,7 +39,7 @@ namespace BusinessLayer.services
             AccountBalance existingRecord = ViewBalance(accountBalance.year, accountBalance.month);
 
             // if balances exsists
-            if (existingRecord != null)
+            if (existingRecord.year != 0)
             {
                 uploadStatus = "Balances of this month already exsists in the database";
             }
@@ -51,6 +51,7 @@ namespace BusinessLayer.services
 
             // return the result
             return uploadStatus;
+
 
         }
 

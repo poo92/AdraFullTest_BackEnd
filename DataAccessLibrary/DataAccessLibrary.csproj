@@ -51,6 +51,11 @@
   <ItemGroup>
     <Compile Include="accountbalance.cs" />
     <Compile Include="adradb.cs" />
+    <Compile Include="Migrations\201801181055337_InitialCreate.cs" />
+    <Compile Include="Migrations\201801181055337_InitialCreate.Designer.cs">
+      <DependentUpon>201801181055337_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\AccountBalanceRepo.cs" />
     <Compile Include="Repository\Interfaces\IAccountBalanceRepo.cs" />
@@ -67,6 +72,11 @@
       <Project>{02272b48-1fa3-458d-9d0e-7b95ad371312}</Project>
       <Name>EntityClasses</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801181055337_InitialCreate.resx">
+      <DependentUpon>201801181055337_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
