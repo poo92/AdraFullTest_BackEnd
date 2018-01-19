@@ -34,9 +34,9 @@ namespace DataAccessLibrary.Migrations
 
             var users = new List<user>
             {
-                new user{uid=1,username="poornima",password="12345",fname="poornima", lname="karunarathne",salt="",userType=1},
-                 new user{uid=2,username="janith",password="12345",fname="janith", lname="karunarathne",salt="",userType=1},
-                 new user{uid=3,username="rusiru",password="12345",fname="rusiru", lname="silva",salt="",userType=1},
+                new user{uid=1,username="poornima",password="IzUCoBx8gMq0MAZMbE8cVHi4UZFTfBLvGLBlPOj1cE0=",fname="poornima", lname="karunarathne",salt="",userType=1},
+                 new user{uid=2,username="janith",password="IzUCoBx8gMq0MAZMbE8cVHi4UZFTfBLvGLBlPOj1cE0=",fname="janith", lname="karunarathne",salt="",userType=1},
+                 new user{uid=3,username="rusiru",password="IzUCoBx8gMq0MAZMbE8cVHi4UZFTfBLvGLBlPOj1cE0=",fname="rusiru", lname="silva",salt="",userType=1},
 
             };
 

@@ -6,9 +6,12 @@ using System.Net.Http;
 using System.Web.Http;
 using BusinessLayer.services.Interfaces;
 using EntityClasses;
+using System.Web.Http.Cors;
 
 namespace AdraDevTest.ApiControllers
 {
+    [EnableCors(origins: "http://localhost:9000", headers: "*", methods: "*")]
+
     public class UserController : ApiController
     {
         private IUserService _UserService;   // create BL object
