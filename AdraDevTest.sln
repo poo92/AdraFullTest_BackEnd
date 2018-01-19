@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityClasses", "EntityClasses\EntityClasses.csproj", "{02272B48-1FA3-458D-9D0E-7B95AD371312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayerUnitTests", "BusinessLayerUnitTests\BusinessLayerUnitTests.csproj", "{417DA847-E90C-43F5-B693-B549CBF95F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{02272B48-1FA3-458D-9D0E-7B95AD371312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02272B48-1FA3-458D-9D0E-7B95AD371312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02272B48-1FA3-458D-9D0E-7B95AD371312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417DA847-E90C-43F5-B693-B549CBF95F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417DA847-E90C-43F5-B693-B549CBF95F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417DA847-E90C-43F5-B693-B549CBF95F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417DA847-E90C-43F5-B693-B549CBF95F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
